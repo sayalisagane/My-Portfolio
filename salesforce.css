@@ -1,0 +1,405 @@
+*{
+    margin: 0%;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.header{
+    height: 10rem;
+    /* background-color: navy; */
+    width: 100%;
+}
+.header .navbar{ 
+    height: 7rem; 
+    background-color: aquamarine;
+    display: flex;
+    width: 100%;
+}
+.header .navbar .first{
+    height: 7rem;
+    width: 65%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header .navbar .first ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.header .navbar .first ul li{
+    font-size: 1rem;
+    font-weight: 500;
+    padding-left: 20px;
+}
+.header .navbar .second{
+    height: 7rem;
+    width: 35%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+}
+.header .navbar .second button:last-child{
+    padding: 10px 30px 10px 30px;
+    background-color: green;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    right: -20px;
+}
+.header .navbar .second button:last-child:hover{
+    background-color: rgb(1, 43, 1);
+    cursor: pointer;
+}
+.header .navbar .second button:first-of-type{
+    font-weight: 600;
+    border: none;
+    font-size: 1rem;
+    background: none;
+    padding: 7px 10px 7px 10px;
+}
+.header .navbar .second button:first-of-type:hover{
+    border-radius: 20px;
+    background-color: lightblue;
+    color: royalblue;
+}
+.header .navbar .second i:hover{
+    padding: 10px;
+    background-color: gainsboro;
+    color: royalblue;
+    border-radius: 50%;
+
+}
+.agent{
+    background-color: rgb(2, 2, 82);
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.agent p{
+    font-weight: 600;
+    padding-left: 20px;
+}
+.agent a{
+    color: white;
+    font-size: 14px;
+    padding-left: 20px;
+}
+.intropage{
+    height: 420px;
+    width: 100%;
+    background-image: url(./images/background.webp);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.intropage .content{
+    height:380px ;
+    width:45% ;
+    /* background-color: red; */
+}
+.intropage .content h1{
+    font-size: 44px;
+    padding-top: 40px;
+    font-weight: 600;
+    color: rgb(2, 2, 82);
+}
+.intropage .content h1::selection{
+    background-color: black;
+}
+
+.intropage .content p{
+    font-size: 17px;
+    padding-top: 20px;
+    letter-spacing: 1px;
+}
+.intropage .content button{
+    padding: 12px 32px;
+    color: #0176D3;
+    position: relative;
+    top: 50px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.intropage .content button:first-of-type{
+    background-color: #0176D3;
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: 14px 32px;
+}
+.intropage .content button:first-of-type:hover{
+    background-color: navy;
+}
+.intropage .content button:last-of-type{
+    border: 2px solid navy;
+    color: navy;
+}
+.intropage .video{
+    height: 380px;
+    width: 45%;
+    /* background-color: green; */
+}
+.intropage .video{
+    height: 380px;
+    width: 45%;
+    /* background-color: chartreuse; */
+    position: relative;
+}
+
+.intropage .video video{
+    height: 380px;
+    width: 100%;
+    position: relative;
+    top: 40px;
+    border-radius: 25px;
+
+}
+
+.intropage .video i{
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    z-index: 1;
+    top: 160px;
+    left: 290px;
+    border: 1px solid white;
+    padding: 25px 30px;
+    border-radius: 50%;
+    background-color: rgb(68, 66, 66);
+}
+.chatbot{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 12px 32px 12px 24px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(180deg,#0250D9, rgb(2,80,217));
+    position: fixed;
+    top: 650px;
+    left: 1280px;
+}
+
+.chatbot img{
+    border-radius: 50%;
+}
+.card-parent{
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(241, 76, 76); */
+    padding-bottom: 200px;
+    background-image: url(./images/backimg.webp);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: relative;    
+    
+}
+.card-parent h2{
+    position: absolute;
+    color: navy;
+    top: 60px;
+    font-size: 30px; 
+    font-weight: 700;
+    text-align: center;  
+    right: 25%;
+}
+
+.cards{
+    height: 70vh;
+    width: 95%;
+    /* background-color: brown; */
+    position: relative;
+    top: 100px;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card{
+    height: 370px;
+    width: 290px;
+    box-shadow: 0px 0px 25px 0px;
+    border-radius: 20px;
+}
+
+.card img{
+    height: 50%;
+    width: inherit;
+    border-radius: 20px;
+}
+
+.card h1{
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-left: 20px;
+    color: navy;
+}
+
+.card p{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.card a{
+    color: navy;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-top: 20px;
+    display: block;
+    font-size: 15px;
+}
+.card-parent button{
+    padding: 22px 32px;
+    font-size: 16px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    position: absolute;
+    top:600px ;
+    left:41% ;
+    color: #022d50;
+    background-color: white;
+}
+.card-parent button:focus{
+    outline: 5px solid #0176D3;
+}
+.demo{
+    height:400px ;
+    width: 100%;
+    /* background-color: yellow; */
+    padding: 30px;
+}
+.demo h1{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: navy;
+}
+.demo p{
+    font-weight: 500;
+    text-align: center;
+    padding-top: 30px;
+}
+.demo button{
+    padding: 16px 32px;
+    border: 2px solid #022d50;
+    background: white;
+    color: #022d50;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    left: 450px;
+}
+
+.demo button:last-child{
+    left: 500px;
+
+}
+.products{
+    height: 700px;
+    width: 100%;
+    /* background-color: rgb(99, 99, 37); */
+    background-image: url(./images/bk.webp);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    transform: rotate();
+
+}
+.products button{
+    padding: 16px 32px;
+    border: 2px solid #022d50;
+    background: white;
+    color: #022d50;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    left: 580px;    
+}
+.products .gridbox{
+    height: 400px;
+    width: 90%;
+    /* background-color: rgb(148, 228, 148); */
+    position: relative;
+    left: 60px;
+    top: 60px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 20px;
+}
+.products .gridbox .child{
+    height: 100px;
+    width:200px ;
+    box-shadow: 0px 7px 20px 2px gray;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+    height: 85vh;
+    width: 100%;
+    /* background-color: rgb(51, 51, 51); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact .content{
+    height:70vh;
+    width: 90%;
+    background-color:rgb(73, 44, 6) ;
+    background-image: url(./images/bkppl.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact .content div{
+    height: 300px;
+    width: 600px;
+}
+.contact .content h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(1, 1, 97);
+    text-align: center;
+}
+.contact .content button {
+    margin-top: 50px;
+    margin-left: 150px;
+    padding: 12px 48px; 
+    border: none;
+    background-color: #0250D9;  
+    color: white;
+    border-radius: 3px;
+}
+.contact .content button a{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.contact .content a{
+    color: navy;
+    margin-left: 30px;
+}
+

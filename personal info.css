@@ -1,0 +1,74 @@
+.background{
+    width: 100%;
+    height: 100vh;
+    background: conic-gradient(grey,white,grey);
+}
+.center{
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  /* flex-direction: column;  */
+}
+.center .personalinfo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 3%;
+}
+.personalinfo{
+    height: 500px;
+    width: 700px;
+    background-color: white;
+    box-shadow: 2px 12px 12px  10px;
+    border-radius: 20px;
+    margin-left: 300px;   
+    margin-top: 50px;  
+    position: relative;
+}
+.personalinfo h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px lightgreen;
+    margin-top: -50px;
+}
+.personalinfo pre {
+    font-size: 20px;
+    font-weight: 100px;
+    margin-top: 50px;  
+    /* text-shadow: 3px 3px 4px rgb(177, 160, 160); */
+}
+.personalinfo .first{
+   text-align:left ;
+   background-color: green;
+   margin-right: 500px;
+   color: white;
+   border: none;
+   padding: 8px;
+   border-radius: 10px;
+   font-size: 15px;
+   cursor: pointer;
+   position: absolute;
+   top: 400px;
+   left: 20px;
+}
+.personalinfo .second{
+    text-align: right;
+    background-color: green;
+    margin-left: 500px;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    position: absolute;
+    top: 400px;
+    right: 20px;
+}
+.personalinfo a :hover{
+    background-color: rgb(1, 44, 1);
+}

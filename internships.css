@@ -1,0 +1,64 @@
+.background{
+    width: 100%;
+    height: 100vh;
+    background: conic-gradient(grey,white,grey);
+}
+.center{
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+.internship{
+    text-align: center;
+    height: 500px;
+    width: 850px;
+    background-color: white;
+    box-shadow: 2px 12px 12px  10px ;
+    border-radius: 20px;
+    margin-left: 50px;   
+    margin-top: 50px; 
+}
+.internship h1{
+    font-size: 30px;
+    font-weight: 600px;
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px lightgreen;
+}
+.internship .first{
+   text-align:left ;
+   background-color: green;
+   margin-right: 500px;
+   color: white;
+   border: none;
+   /* padding: 8px; */
+   border-radius: 10px;
+   font-size: 15px;
+   cursor: pointer;
+   text-align:left ;
+   margin-right: 600px;
+   padding: 10px;
+}
+.internship .second{
+    text-align: right;
+    background-color: green;
+    margin-left: 500px;
+    color: white;
+    border: none;
+    /* padding: 8px; */
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: right;
+    margin-left: -70px;
+    padding: 10px;
+}
+.internshipname{
+    text-align: left;
+    line-height: 35px;
+}
+.internship .second:hover{
+  background-color: rgb(1, 22, 1);  
+ }
+ .internship .first:hover{
+  background-color: rgb(1, 22, 1);  
+ }

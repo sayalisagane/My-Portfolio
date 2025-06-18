@@ -1,0 +1,291 @@
+.grandparent{
+    width: 100%;
+    height: 250vh;
+    background: conic-gradient(grey,white,gray);
+    margin-top: -1px;
+}
+
+ .grandparent h1{
+    font-size: 40px;
+    font-weight: 600px;
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px rgb(250, 250, 250);
+    text-align: center;
+    color: rgb(10, 1, 1);
+ }
+ .up{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ .parent1{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 2px 12px 12px  10px ;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.parent2{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 2px 12px 12px  10px ;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.parent3{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 2px 12px 12px  10px ;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.parent4{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 2px 12px 12px  10px ;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.parent5{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 2px 12px 12px  10px ;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.parent6{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 2px 12px 12px  10px ;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.actors h1{
+    font-size: 40px;
+    font-weight: 600px;
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px rgb(252, 251, 251);
+    text-align: center;
+    color: rgb(5, 1, 1);
+ }
+ .down{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ .act1{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 2px 12px 12px  10px ;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.act2{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 2px 12px 12px  10px ;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.act3{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 2px 12px 12px  10px ;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.act4{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 2px 12px 12px  10px ;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.act5{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 2px 12px 12px  10px ;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.act6{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 2px 12px 12px  10px ;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.heroines h1{
+    font-size: 30px;
+    font-weight: 600px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(5, 1, 1);
+    margin-top: 60px;
+    word-spacing: 5px;
+}
+
+.actress{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.actress1{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 2px 2px 5px 3px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.actress2{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 2px 2px 5px 3px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.actress3{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 2px 2px 5px 3px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.actress4{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 2px 2px 5px 3px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.actress5{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 2px 2px 5px 3px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.imagine h1{
+    font-size: 30px;
+    font-weight: 600px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(5, 1, 1);
+    margin-top: 60px;
+    word-spacing: 5px;
+}
+
+.cartoons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cartoon1{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 2px 2px 5px 3px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.cartoon2{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 2px 2px 5px 3px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.cartoon3{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 2px 2px 5px 3px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.cartoon4{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 2px 2px 5px 3px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.cartoon5{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 2px 2px 5px 3px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+ .first{
+   text-align:left ;
+   background-color: green;
+   margin-right: 500px;
+   color: white;
+   border: none;
+   /* padding: 8px; */
+   border-radius: 10px;
+   font-size: 15px;
+   cursor: pointer;
+   text-align:left ;
+   /* margin-right: 1000px; */
+   margin-left: 350px;
+   padding: 10px;
+}
+.second{
+    text-align: right;
+    background-color: green;
+    margin-left: 500px;
+    color: white;
+    border: none;
+    /* padding: 8px; */
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: right;
+    margin-left: -1px;
+    padding: 10px;
+}
+.button a :hover{
+    background-color: rgb(2, 71, 2);
+}
+
+
+
+
+
+
+ 
