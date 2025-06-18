@@ -1,0 +1,67 @@
+.background{
+    width: 100%;
+    height: 100vh;
+    background: conic-gradient(grey,white,grey);
+}
+.mid{
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  flex-direction: column; 
+}
+.qspider{
+    text-align: center;
+    height: 500px;
+    width: 850px;
+    background-color: white;
+    box-shadow: 2px 12px 12px  10px ;
+    border-radius: 20px;
+    margin-left: 50px;   
+    margin-top: 50px; 
+    text-align: justify;
+    position: relative;
+}
+.qspider h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600px;
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px lightgreen;
+}
+.qspider .first{
+   text-align:left ;
+   background-color: green;
+   margin-right: 500px;
+   color: white;
+   border: none;
+   /* padding: 8px; */
+   border-radius: 10px;
+   font-size: 15px;
+   cursor: pointer;
+   text-align:left ;
+   /* margin-right: 600px; */
+   padding: 10px;
+   position: absolute;
+   left: 20px;
+   top: 450px;
+}
+.qspider .second{
+    text-align: right;
+    background-color: green;
+    margin-left: 500px;
+    color: white;
+    border: none;
+    /* padding: 8px; */
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: right;
+    /* margin-left: -70px; */
+    padding: 10px;
+    position: absolute;
+    right: 20px;
+    top: 450px;
+}
+.qspider a :hover{
+    background-color: rgb(2, 71, 2);
+}

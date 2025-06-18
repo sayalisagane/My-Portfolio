@@ -1,0 +1,298 @@
+*{
+    margin: 0%;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: normal;    
+}
+.header{
+    height: 6rem;
+    /* background-color: darkblue; */
+    width: 100%;
+}
+
+.header .navbar{
+    height: 7rem;
+    /* background-color: rgb(151, 40, 40); */
+    width: 100%;
+    display: flex;
+}
+
+.header .navbar .first{
+    height: 7rem;
+    width: 65%;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header .navbar .first ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.header .navbar .first ul li{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.header .navbar .second{
+    height: 7rem;
+    width: 35%;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header .navbar .second button:last-child{
+    padding: 10px 30px 10px 30px;
+    background-color: green;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    right: -20px;
+}
+
+.header .navbar .second button:last-child:hover{
+    background-color: rgb(1, 45, 1);
+    cursor: pointer;
+}
+
+.header .navbar .second button:first-of-type{
+    font-weight: 600;
+    border: none;
+    font-size: 1rem;
+    background: none;
+    padding: 7px 10px 7px 10px;
+}
+
+.header .navbar .second button:first-of-type:hover{
+    border-radius: 20px;
+    background-color: rgb(200, 246, 245);
+    cursor: pointer;
+    color: royalblue;
+}
+
+.header .navbar .second i:hover{
+    padding: 10px;
+    background-color: rgb(200, 228, 242);
+    color: royalblue;
+    border-radius: 50%;
+}
+.form-parent{
+    height:1000px ;
+    width: 100%;
+    background-color: rgb(138, 235, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.parent{
+    height: 700px;
+    width: 77%;
+    /* background-color: rgb(170, 112, 112); */
+    position: relative;
+}
+.form{
+    height: 640px;
+    width: 480px;
+    background-color: white;
+    padding: 30px;
+}
+.form h1{
+    font-size: 20px;
+    font-weight: 700;
+}
+.form input{
+    width:210px ;
+    height:30px;
+    margin:5px ;
+    padding-left: 10px;
+    margin-top: 25px;
+}
+.form input:last-of-type{
+    width: 450px;
+}
+.form textarea{
+    margin: 5px;
+    margin-top: 25px;
+}
+.form p{
+    font-size: 12px;
+    display: block;
+}
+.form button{
+    padding: 12px 194px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: royalblue;
+    color: white;
+}
+.parent .call{
+    height: 300px;
+    width: 480px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-left: 10px;
+}
+.call h1{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px;
+}
+.call a{
+    padding-top: 5px;
+    display: block;
+}
+.call p{
+    font-weight: 600;
+    font-size: 17px;
+}
+.parent .feedback{
+    height: 180px;
+    width: 480px;
+    background-color: white;
+    top: 320px;
+    right: 0px;
+    padding-left: 10px;
+    position: absolute;
+}
+.parent .feedback h1{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px;    
+}
+.parent .feedback p{
+    /* font-weight: 600; */
+    font-size: 15px;    
+}
+.parent .feedback button{
+    background-color: rgb(23, 63, 184);
+    border: none;
+    padding: 13px;
+    color: white;
+    border-radius: 5px;
+    margin: 32px;
+}
+.parent .whatsapp{
+    height: 310px;
+    width: 480px;
+    background-color: white;
+    top: 530px;
+    right: 0px;
+    padding-left: 10px;
+    position: absolute;
+}
+.parent .whatsapp h1{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px; 
+    top: 2px;
+}
+.parent .whatsapp button{
+    background-color: rgb(28, 160, 28);
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    margin: 22px;
+    top: 0;
+}
+.parent .whatsapp p{
+    /* font-weight: 600; */
+    font-size: 15px;    
+}
+.footer{
+    height: 400px;
+    width: 100%;
+    /* background-color: plum; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer .part1{
+    height: 300px;
+    width: 380px;
+    /* position: absolute; */
+    /* background-color: plum; */
+    padding-left: 20px;
+}
+
+.part1 img{
+    padding-top: 10px;
+}
+
+.part1 i{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.part1 h1{
+    font-size: 20px;
+}
+
+.part1 h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer .part2{
+    height: 300px;
+    width: 280px;
+    /* position: absolute; */
+    background-color: white;
+    padding-left: 20px;
+}
+
+.part2 a{
+    display: block;
+    padding-top: 10px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.footer .part3{
+    height: 300px;
+    width: 280px;
+    /* position: absolute; */
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.part3 a{
+    display: block;
+    padding-top: 10px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.footer .part4{
+    height: 300px;
+    width: 280px;
+    /* position: absolute; */
+    background-color: white;
+    padding-left: 20px;
+}
+
+.part4 a{
+    display: block;
+    padding-top: 10px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
